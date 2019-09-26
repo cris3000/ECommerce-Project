@@ -8,11 +8,10 @@ $name=[$_SESSION['40242807_id']];
    }
 	$displayid =$_GET['row'];
 	
-	$host= "chealey01.lampt.eeecs.qub.ac.uk";	
+	$host= "xxxxxx.lampt.eeecs.qub.ac.uk";
 	$pw= "1ZRScm6G8nR570xj";
-	$db="chealey01";
-	$user="chealey01";
-	
+	$db="xxxxx01";
+	$user="xxxxx01";
 
 $mysqli = new mysqli($host,$user,$pw,$db);
 $result = $mysqli->query("SELECT  DISTINCT *from product  join users on product.UserID=users.id WHERE  product.id= '$displayid'");
