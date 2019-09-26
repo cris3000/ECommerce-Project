@@ -7,10 +7,10 @@ if (!isset($_SESSION['40242807_id']))
 	  
    }
 
-$host="chealey01.lampt.eeecs.qub.ac.uk";
-$user="chealey01";
-$pw="1ZRScm6G8nR570xj";
-$db="chealey01";
+$host= "xxxxxx.lampt.eeecs.qub.ac.uk";
+	$pw= "1ZRScm6G8nR570xj";
+	$db="xxxxx01";
+	$user="xxxxx01";
 
 
 $conn= new mysqli($host,$user,$pw,$db);
