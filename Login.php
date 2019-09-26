@@ -2,11 +2,10 @@
 session_start();
 
 
-	$host= "chealey01.lampt.eeecs.qub.ac.uk";
+	$host= "xxxxxx.lampt.eeecs.qub.ac.uk";
 	$pw= "1ZRScm6G8nR570xj";
-	$db="chealey01";
-	$user="chealey01";
-
+	$db="xxxxx01";
+	$user="xxxxx01";
 
 $mysqli = new mysqli($host,$user,$pw,$db);
 
