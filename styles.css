@@ -1,0 +1,402 @@
+
+a:hover {
+  color: yellow;
+
+
+}
+
+#headerImage{
+
+display: inline-block;
+position:relative;
+max-width: 100%; 
+display:block; 
+height: auto;
+float:left;
+
+
+}
+#avatar{
+	margin-left:40%;
+}
+
+.responsive {
+  max-width:50%;
+  height: auto;
+}
+@media screen and (max-width:780px) {  
+  #headerImage{
+    display: none;
+  }
+}
+
+header{
+	display:inline;
+	position:relative;
+}
+
+#rowNav{
+		position:relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+ padding-left:20%;
+ height: 50px;
+	
+}
+#WelcomeROW{
+	 padding-left:10%;
+}
+
+
+#billing{
+	padding-left:25%;
+	width:65%;
+}
+#list{	
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+padding-left:17%;
+  height: 30%;
+	display:inline;
+
+}
+#links{
+	border-color:black;
+display: inline-block;
+ top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+	 position:relative;
+
+}
+
+#header{
+ margin: 0;
+
+margin-right:6%;
+text-align: center;
+
+display: flex;
+}
+#regform{
+	margin-bottom:2%;	
+	height:5%;
+	width:35%;
+}
+
+
+#signup{
+	margin-left:10%;
+	padding-bottom:2%;
+	text-align:left;
+}
+#registrationTable{
+	
+	height:auto;
+	font-size: 11;
+	width:60%;
+	margin-top:22%;
+	
+border-collapse: collapse;
+    border-spacing: 0;
+	margin-top:10%;
+	margin-left:30%;
+}
+
+#UpdateTable{
+	
+	height:auto;
+	font-size: 11;
+	width:60%;
+	
+	
+border-collapse: collapse;
+    border-spacing: 0;
+	margin-left:30%;
+}
+
+#Sign{
+	padding-top:20%;
+}
+
+#submit{
+	 position: relative;
+	 bottom:65%;
+	 left:20%;
+}
+
+#linkForgotPass{
+	
+	margin-left:40%;
+	
+}
+
+
+
+
+#updateInfo{
+	
+	
+}
+#deleteButton{
+	
+	margin-left:20%;
+}	
+
+#accountSubHeader{
+	color:black;
+	margin-top:5%;
+	margin-left:30%;
+}
+#basket{
+	
+ position:relative;
+	 margin-left:62%;
+
+	font-size:2.5vw;
+display: inline-block;
+}
+
+#x{
+	float:right;
+		display: inline-block;
+border-color:white;
+  position:relative;
+  text-align: center;
+}
+#x1{
+background-color:Thistle;
+	float:right;
+
+		display: inline-block;
+		
+border-color:white;
+}
+
+
+#Categories{
+	 word-wrap: break-word;
+
+}
+#newbar{
+width:220px;
+
+}
+
+
+#userTable{
+	
+	padding-left:30%;
+	
+}
+
+#textProfile{
+	
+	margin-left:33%;
+	
+}
+
+#textProfile1{
+	padding-top:10%;
+	margin-left:23%;
+	
+}
+
+#title{
+	
+	margin-left:40%;
+}
+
+html,body{
+	overflow: auto;
+	
+	
+	}
+
+
+
+#selectViewability{
+	padding-bottom:15%;
+	
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://d1ez3020z2uu9b.cloudfront.net/imagecache/blog-photos/268_Fill_800_800.jpg");
+ background-image: url("https://i2.wp.com/kevinguesthouse.com/app/uploads/2018/02/o-SHOPPING-BAGS-facebook.jpg?ssl=1");
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+#itemName{
+	
+	margin-top:5%;
+}
+#detailsAccountProduct{
+	margin-top:2%;
+	
+}
+
+#contact{
+	
+	margin-left:20%;
+}
+
+#contactForm{
+	border-style:ridge;
+	width:35%;
+	
+}
+
+#contactSubmit{
+	margin-left:11%;
+
+}
+
+
+#titleAcc{
+	
+	top-border-style:ridge;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 19px;
+  padding: 7px 0;
+  font-size: 20px;
+}
+
+#clothing{
+	margin-left:40%;
+
+}
+.component
+{
+    padding: 2rem;
+    
+    background-color: lightgray;
+    
+    /* Role: Presentation - to show the changing color of the space around the content */
+    animation: 2s infinite alternate ease-in-out breathing-color--dark;
+}
+ 
+#rows{
+	padding-top:10%;
+}
+
+#catimgline{
+	border-bottom:ridge;
+}
+#ConfirmCheckOut{
+	
+	float:right;
+	margin-top:5%;
+	margin-right:15%;
+}
+#categoryimage{
+
+	text-align:left;
+}
+
+catimgline
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+@media (max-width: 600px) {
+}
+#navList{
+	position:relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  
+	
+}
+
+#visa{
+	
+	color:blue;
+}
+
+#amex{
+	color:orange;
+}
+
+
+#mastercard{
+	color: red;
+}
+
+#discover{
+	color: grey;
+	
+}
+
+}
+
+#billingForm{
+width:25%;
+margin-left:25%;
+margin-top:10%;
+}
+
+
+#messagingrow{
+	   border-width:2px;  
+    border-top-style:ridge;
+border-top-color: silver;
+}
+
+.section{
+  display:inline-block;
+  vertical-align:top;
+  font-size:15px;
+  margin-top:25px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#headerlinks{
+	display:inline;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
