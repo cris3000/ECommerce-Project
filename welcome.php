@@ -6,11 +6,10 @@ if (!isset($_SESSION['40242807_id']))
    {
       header("location: Login.php");
 	  
-   }
-	$host= "chealey01.lampt.eeecs.qub.ac.uk";
-	$pw= "1ZRScm6G8nR570xj";
-	$db="chealey01";
-	$user="chealey01";
+   }$host= "xxxxxxxxeecs.qub.ac.uk";
+	$pw= "1ZRxxxScm6G8nR570xj";
+	$db="xxxx";
+	$user="x";
 	
 
 $mysqli = new mysqli($host,$user,$pw,$db);
